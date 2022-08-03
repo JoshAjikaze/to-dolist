@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.contain {
+  background: rgba(77, 17, 218, 0.447);
+  min-height: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+  width: 250px;
+}
+
+.contain input,
+.contain button {
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.contain input {
+  padding-left: 10px;
+}
+
+.contain button {
+  padding: 10px;
+}
+
+.todoList {
+  width: 100%;
+  min-height: 5px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.217);
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 5px;
+}
+.listItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  color: #fff;
+  text-transform: capitalize;
+}
